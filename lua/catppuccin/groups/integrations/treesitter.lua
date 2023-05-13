@@ -116,9 +116,9 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@text.diff.delete"] = { link = "diffRemoved" }, -- deleted text (for diff files)
 
 		-- Tags
-		["@tag"] = { fg = C.mauve }, -- Tags like html tag names.
-		["@tag.attribute"] = { fg = C.teal, style = { "italic" } }, -- Tags like html tag names.
-		["@tag.delimiter"] = { fg = C.sky }, -- Tag delimiter like < > /
+		["@tag"] = { fg = C.yellow }, -- Tags like html tag names.
+		["@tag.attribute"] = { fg = C.peach, style = { "italic" } }, -- Tags like html tag names.
+		["@tag.delimiter"] = { fg = C.text }, -- Tag delimiter like < > /
 
 		-- Language specific:
 
@@ -144,8 +144,8 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@constructor.typescript"] = { fg = C.lavender },
 
 		-- TSX (Typescript React)
-		["@constructor.tsx"] = { fg = C.lavender },
-		["@tag.attribute.tsx"] = { fg = C.mauve, style = { "italic" } },
+		["@constructor.tsx"] = { fg = C.yellow },
+		["@tag.attribute.tsx"] = { fg = C.peach, style = { "italic" } },
 
 		-- cpp
 		["@property.cpp"] = { fg = C.rosewater },
